@@ -281,7 +281,7 @@
 				"type": "File",
 				"artifact": {
 					"size": 911,
-					"MD5": "88c6eed41a7081a7bff09c3fd88922c6",
+					"MD5": "2cd51eb252e1a0e858799fbb5e201f73",
 					"path": "config/torohealthmod.cfg",
 					"url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/torohealthmod.cfg"
 				}
