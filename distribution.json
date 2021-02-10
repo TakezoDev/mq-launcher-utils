@@ -1,0 +1,313 @@
+{
+	"version": "1.0.0",
+	"discord": {
+		"clientId": "798268349003857954",
+		"smallImageText": "MQLauncher",
+		"smallImageKey": "logo"
+	},
+	"java": {
+		"oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+	},
+	"rss": "https://alpha-games/devtest/index.rss",
+	"servers": [{
+		"id": "MonsterQuest-1.8",
+		"name": "MonsterQuest 1.8",
+		"description": "Client pour le MQ",
+		"icon": "https://static.wikia.nocookie.net/monsterquest/images/8/86/Logo_monsterquest.png/revision/latest/scale-to-width-down/180?cb=20200510135715&path-prefix=fr",
+		"version": "1.0.0",
+		"address": "play.monsterquest.eu",
+		"minecraftVersion": "1.8.9",
+		"discord": {
+			"shortId": "MQ",
+			"largeImageText": "MQ Serveur",
+			"largeImageKey": "logo"
+		},
+		"mainServer": true,
+		"autoconnect": true,
+		"modules": [{
+				"id": "net.minecraftforge:forge:1.8.9-11.15.1.2318",
+				"name": "Minecraft Forge",
+				"type": "ForgeHosted",
+				"artifact": {
+					"size": 3805686,
+					"MD5": "06BDE80631C8642E7C592D4CB3A890E4",
+					"url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+				},
+				"subModules": [{
+						"id": "net.minecraft:launchwrapper:1.12",
+						"name": "Mojang (LaunchWrapper)",
+						"type": "Library",
+						"artifact": {
+							"size": 32999,
+							"MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
+						}
+					},
+					{
+						"id": "org.ow2.asm:asm-all:5.0.3",
+						"name": "Mojang (ASM)",
+						"type": "Library",
+						"artifact": {
+							"size": 241639,
+							"MD5": "C5CC4613BBDFBA3CCF5F0AB85390D0B8",
+							"url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+						}
+					},
+					{
+						"id": "jline:jline:2.13",
+						"name": "Mojang (jline)",
+						"type": "Library",
+						"artifact": {
+							"size": 248566,
+							"MD5": "336027423C144915072E970D637BD44E",
+							"url": "https://repo1.maven.org/maven2/jline/jline/2.13/jline-2.13.jar"
+						}
+					},
+					{
+						"id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+						"name": "Minecraft Forge (scala-library)",
+						"type": "Library",
+						"artifact": {
+							"size": 1474672,
+							"MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
+						}
+					},
+					{
+						"id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+						"name": "Minecraft Forge (scala-compiler)",
+						"type": "Library",
+						"artifact": {
+							"size": 3076920,
+							"MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
+						}
+					},
+					{
+						"id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+						"name": "Minecraft Forge (scala-actors-migration)",
+						"type": "Library",
+						"artifact": {
+							"size": 21324,
+							"MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+						}
+					},
+					{
+						"id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+						"name": "Minecraft Forge (scala-continuations-library)",
+						"type": "Library",
+						"artifact": {
+							"size": 7956,
+							"MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+						}
+					},
+					{
+						"id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+						"name": "Minecraft Forge (scala-continuations-plugin)",
+						"type": "Library",
+						"artifact": {
+							"size": 46140,
+							"MD5": "a8232db22a72a981de6b1399eb86dff7",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+						}
+					},
+					{
+						"id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+						"name": "Minecraft Forge (scala-parser-combinators)",
+						"type": "Library",
+						"artifact": {
+							"size": 85568,
+							"MD5": "2e50a7df17680daadacca69f07f8a16d",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+						}
+					},
+					{
+						"id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+						"name": "Minecraft Forge (scala-reflect)",
+						"type": "Library",
+						"artifact": {
+							"size": 1070312,
+							"MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
+						}
+					},
+					{
+						"id": "org.scala-lang:scala-swing_2.11:1.0.1",
+						"name": "Minecraft Forge (scala-swing)",
+						"type": "Library",
+						"artifact": {
+							"size": 736795,
+							"MD5": "1d360289e697022a3f57abaad344b28f",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
+						}
+					},
+					{
+						"id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+						"name": "Minecraft Forge (scala-xml)",
+						"type": "Library",
+						"artifact": {
+							"size": 217812,
+							"MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+						}
+					},
+					{
+						"id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+						"name": "Minecraft Forge (akka-actor)",
+						"type": "Library",
+						"artifact": {
+							"size": 746612,
+							"MD5": "25cb22c3078e9fb3f7a861c912924862",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/akka-actor_2.11-2.3.3.jar.pack.xz"
+						}
+					},
+					{
+						"id": "com.typesafe:config:1.2.1@jar.pack.xz",
+						"name": "Minecraft Forge (typesafe-config)",
+						"type": "Library",
+						"artifact": {
+							"size": 56636,
+							"MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/config-1.2.1.jar.pack.xz"
+						}
+					},
+					{
+						"id": "lzma:lzma:0.0.1",
+						"name": "Mojang (LZMA)",
+						"type": "Library",
+						"artifact": {
+							"size": 5762,
+							"MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/lzma-0.0.1.jar"
+						}
+					},
+					{
+						"id": "net.sf.trove4j:trove4j:3.0.3",
+						"name": "Trove4J",
+						"type": "Library",
+						"artifact": {
+							"size": 2523218,
+							"MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/trove4j-3.0.3.jar"
+						}
+					},
+					{
+						"id": "java3d:vecmath:1.5.2",
+						"name": "Vecmath",
+						"type": "Library",
+						"artifact": {
+							"size": 318956,
+							"MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/vecmath-1.5.2.jar"
+						}
+					},
+					{
+						"id": "net.sf.jopt-simple:jopt-simple:4.6",
+						"name": "Jopt-simple",
+						"type": "Library",
+						"artifact": {
+							"size": 62477,
+							"MD5": "13560A58A79B46B82057686543E8D727",
+							"url": "https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+						}
+					},
+					{
+						"id": "org.apache.maven:maven-artifact:3.5.3",
+						"name": "maven-artifact",
+						"type": "Library",
+						"artifact": {
+							"size": 54961,
+							"MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+							"url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
+						}
+					}
+				]
+			},
+			{
+				"id": "net.labymod:labymod:3.7.7",
+				"name": "LabyMod-3",
+				"type": "ForgeMod",
+				"required": {
+					"value": false
+				},
+				"artifact": {
+					"size": 3686522,
+					"MD5": "66d166ad8e00595b56f245587729c7da",
+					"url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/LabyMod-3%20(1).jar"
+				}
+			},
+			{
+				"id": "net.optifine:optifine:HD_U_I7",
+				"name": "OptiFine",
+				"type": "ForgeMod",
+				"required": {
+					"value": false
+				},
+				"artifact": {
+					"size": 2016181,
+					"MD5": "0CD268FE402EB50D039F02B8603D2454",
+					"url": "http://srv-1.ryderg.net:30000/jar/launcher-jars/raw/master/OptiFine_1.8.9_HD_U_I7.jar"
+				}
+			},
+			{
+				"id": "net.torohealth:torohealth:1.8.9-7",
+				"name": "ToroHealth",
+				"type": "ForgeMod",
+				"required": {
+					"value": false
+				},
+				"artifact": {
+					"size": 47573,
+					"MD5": "83aec661a483c4c7074885011c4bcbea",
+					"url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/torohealth-1.8.9-7%20(2).jar"
+				}
+			},
+			{
+				"id": "ToggleSneakMod-optional.json",
+				"name": "ToggleSneakMod Settings",
+				"type": "File",
+				"artifact": {
+					"size": 206,
+					"MD5": "78B2720C95E96CC5EF31F4D937B68C22",
+					"path": "OldAnimationsMod/ToggleSneakMod-optional.json",
+					"url": "http://srv-1.ryderg.net:30000/jar/launcher-jars/raw/master/ToggleSneakMod-optional.json"
+				}
+			},
+			{
+				"id": "ToroHealth-optional.json",
+				"name": "ToroHealth Settings",
+				"type": "File",
+				"artifact": {
+					"size": 911,
+					"MD5": "88c6eed41a7081a7bff09c3fd88922c6",
+					"path": "config/torohealthmod.cfg",
+					"url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/torohealthmod.cfg"
+				}
+			},
+			{
+				"id": "LabyMod-3-optional.json",
+				"name": "LabyMod 3 Config",
+				"type": "File",
+				"artifact": {
+					"size": 2856,
+					"MD5": "390E076ED2A827036736726677235A47",
+					"path": "LabyMod/LabyMod-3-optional.json",
+					"url": "http://srv-1.ryderg.net:30000/jar/launcher-jars/raw/master/LabyMod-3-optional.json"
+				}
+			},
+			{
+				"id": "NewMonsterPack.zip",
+				"name": "NewMonsterPack",
+				"type": "File",
+				"artifact": {
+					"size": 526233,
+					"MD5": "441668ebb40d1ac8904a4c8009c82395",
+					"path": "resourcepacks/NewMonsterPack.zip",
+					"url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/NewMonsterPack.zip"
+				}
+			}
+		]
+	}]
+}
