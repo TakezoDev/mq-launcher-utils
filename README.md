@@ -11,7 +11,7 @@ Projet non professionel de launcher pour le serveur **MonsterQuest**
 ## Téléchargements
 
 Lien de téléchargement [ici](https://github.com/TakezoDev/mq-launcher-utils/releases)
-\nLe fichier n'étant pas soumis à une signature de code, il est détecter comme dangereux auprès de Windows.
+<br>Le fichier n'étant pas soumis à une signature de code, il est détecter comme dangereux auprès de Windows.
 
 ### Informations
 Merci à Daniel Scalzi pour son aide.
