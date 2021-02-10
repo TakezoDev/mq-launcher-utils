@@ -297,6 +297,17 @@
 					"url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/LabyMod-3.json"
 				}
 			},
+			    {
+				"id": "LabyMod-3-optional.json",
+				"name": "LabyMod 3 Config",
+				"type": "File",
+				"artifact": {
+				    "size": 2857,
+				    "MD5": "390E076ED2A827036736726677235A47",
+				    "path": "LabyMod/LabyMod-3-optional.json",
+				    "url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/LabyMod-3-optional.json"
+				}
+			    },		    
 			{
 				"id": "NewMonsterPack.zip",
 				"name": "NewMonsterPack",
