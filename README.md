@@ -1,30 +1,21 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
-<h1 align="center">MQ launcher</h1>
+<h1 align="center">MQ Launcher</h1>
 
 
-[<p align="center"><img src="https://img.shields.io/travis/dscalzi/HeliosLauncher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/dscalzi/HeliosLauncher) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="stark"></p>
+![Screenshot 1](https://cdn.discordapp.com/attachments/807287716411605022/808969742865793024/unknown.png)
 
 
-![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
-![Screenshot 2](https://i.imgur.com/x3B34n1.png)
-
+Projet non professionel de launcher pour le serveur **MonsterQuest** 
 
 ## Téléchargements
 
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
+Lien de téléchargement [ici](https://github.com/TakezoDev/mq-launcher-utils/releases)
+Le fichier n'étant pas soumis à une signature de code, il est détecter comme dangereux auprès de Windows.
 
-
-### Note on Third-Party Usage
-
-You may use this software in your own project so long as the following conditions are met.
-
-* Credit is expressly given to the original authors (Daniel Scalzi).
-  * Include a link to the original source on the launcher's About page.
-  * Credit the authors and provide a link to the original source in any publications or download pages.
-* The source code remain **public** as a fork of this repository.
-
-We reserve the right to update these conditions at any time, please check back periodically.
+### Informations
+Merci à Daniel Scalzi pour son aide.
+Ce projet est soumis a une license.
 
 ---
 
