@@ -239,16 +239,16 @@
 				}
 			},
 			{
-				"id": "net.optifine:optifine:HD_U_I7",
+				"id": "net.optifine:optifine:HD_U_L5",
 				"name": "OptiFine",
 				"type": "ForgeMod",
 				"required": {
-					"value": false
+					"value": true
 				},
 				"artifact": {
-					"size": 2016181,
-					"MD5": "0CD268FE402EB50D039F02B8603D2454",
-					"url": "http://srv-1.ryderg.net:30000/jar/launcher-jars/raw/master/OptiFine_1.8.9_HD_U_I7.jar"
+					"size": 2517183,
+					"MD5": "2332fcdb59ca0e4ee79cddf8fe114d25",
+					"url": "https://raw.githubusercontent.com/TakezoDev/mq-launcher-utils/main/lib/OptiFine_1.8.9_HD_U_L5.jar"
 				}
 			},
 			{
